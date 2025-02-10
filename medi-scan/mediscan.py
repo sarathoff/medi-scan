@@ -4,10 +4,7 @@ import os
 import requests
 from PIL import Image
 import io
-from dotenv import load_dotenv
 import google.generativeai as genai
-
-load_dotenv()
 
 # Configure Google API
 GOOGLE_API_KEY = "AIzaSyDVBniPYoMEGOE360X89Pd3-GS5_tkSDrQ"
